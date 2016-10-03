@@ -32,18 +32,27 @@
     <title>Archiv: 2016/10 - Podcast list</title>
 
     <!-- Custom CSS -->
-    <link rel="stylesheet" href="/sass/main.css">
+    
+        <link rel="stylesheet" href="/podcasts/sass/main.css">
+    
+
 
     <!--[if lt IE 8]>
-        <script src="/js/ie/html5shiv.js"></script>
+    
+        <script src="/podcasts/js/ie/html5shiv.js"></script>
+    
     <![endif]-->
 
     <!--[if lt IE 8]>
-        <link rel="stylesheet" href="/sass/ie8.css">
+    
+        <link rel="stylesheet" href="/podcasts/sass/ie8.css">
+    
     <![endif]-->
 
-    <!--[if lt IE 9]>
-        <link rel="stylesheet" href="/sass/ie9.css">
+    <!--[ifxx lt IE 9]>
+    
+        <link rel="stylesheet" href="/podcasts/sass/ie9.css">
+    
     <![endif]-->
 
     <!-- Gallery -->
@@ -51,9 +60,21 @@
 
     <!-- Google Analytics -->
     
+    <script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+                    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+                m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+        ga('create', 'UA-85084466-1', 'auto');
+        ga('send', 'pageview');
+
+    </script>
+
 
 
 </head>
+
 
 <body>
 
@@ -66,7 +87,7 @@
 
         <!-- Logo -->
         <a href="/" class="logo">
-            <span class="symbol"><img src="podcasts/images/logo.svg" alt="" /></span><span class="title">Podcast list</span>
+            <span class="symbol"><img src="images/logo.svg" alt="" /></span><span class="title">Podcast list</span>
         </a>
 
         <!-- Nav -->
@@ -88,14 +109,6 @@
                 <a href="/">Home</a>
             </li>
         
-            <li>
-                <a href="/podcasts/archives">Archives</a>
-            </li>
-        
-            <li>
-                <a href="/about.html">About</a>
-            </li>
-        
     </ul>
 </nav>
 
@@ -111,22 +124,7 @@
     <ul class="archive-list">
         
             <li>
-    <a href="/2016/10/02/hello-world/">Hello World</a>
-</li>
-
-        
-            <li>
-    <a href="/2016/10/02/My-Gallery/">My Gallery</a>
-</li>
-
-        
-            <li>
-    <a href="/2016/10/02/hello-world2/">Hello World2sss</a>
-</li>
-
-        
-            <li>
-    <a href="/2016/10/02/mytest/">mytest</a>
+    <a href="/2016/10/02/js_jabber/">Js Jabber</a>
 </li>
 
         
@@ -145,49 +143,33 @@
         <section>
             <h2>About</h2>
             <div>
-                This theme was initially developed by <a href="http://html5up.net" target="_blank">HTML5 UP</a>. It is adapted for Hexo by <a href="http://www.codeblocq.com/" target="_blank">Jonathan Klughertz</a>.<br />The source code is available on <a href="https://github.com/klugjo/hexo-theme-phantom" target="_blank">GitHub</a>.
+                This is my list  of podcasts  that I've gathered  in order  to  listen to interesting  talks  about  frameworks,  languages,  tools and other  stuff.
             </div>
         </section>
         <section>
             <h2>Follow</h2>
             <ul class="icons">
                 
-                    <li><a href="https://twitter.com/?lang=en" class="icon style2 fa-twitter" target="_blank" ><span class="label">Twitter</span></a></li>
                 
                 
-                    <li><a href="https://www.facebook.com/" class="icon style2 fa-facebook" target="_blank" ><span class="label">Facebook</span></a></li>
                 
                 
-                    <li><a href="https://www.instagram.com/" class="icon style2 fa-instagram" target="_blank" ><span class="label">Instagram</span></a></li>
+                    <li><a href="https://github.com/akaiserg" class="icon style2 fa-github" target="_blank" ><span class="label">GitHub</span></a></li>
                 
                 
-                    <li><a href="https://dribbble.com/" class="icon style2 fa-dribbble" target="_blank" ><span class="label">Dribbble</span></a></li>
                 
                 
-                    <li><a href="https://github.com/klugjo/hexo-theme-phantom/commits?author=klugjo" class="icon style2 fa-github" target="_blank" ><span class="label">GitHub</span></a></li>
                 
-                
-                    <li><a href="https://plus.google.com/" class="icon style2 fa-google-plus" target="_blank" ><span class="label">Google+</span></a></li>
-                
-                
-                    <li><a href="https://www.behance.net/" class="icon style2 fa-behance" target="_blank" ><span class="label">Behance</span></a></li>
-                
-                
-                    <li><a href="https://500px.com/" class="icon style2 fa-500px" target="_blank" ><span class="label">500px</span></a></li>
-                
-                
-                    <li><a href="\#" class="icon style2 fa-envelope-o" target="_blank" ><span class="label">Email</span></a></li>
-                
-                
-                    <li><a href="\#" class="icon style2 fa-rss" target="_blank" ><span class="label">RSS</span></a></li>
                 
             </ul>
         </section>
+        <!--
         <ul class="copyright">
             <li>&copy; Untitled. All rights reserved</li>
             <li>Design: <a href="http://html5up.net" target="_blank">HTML5 UP</a></li>
             <li>Hexo: <a href="http://www.codeblocq.com/" target="_blank">Jonathan Klughertz</a></li>
         </ul>
+        -->
     </div>
 </footer>
     </div>
@@ -195,20 +177,44 @@
     <!-- After footer scripts -->
     
 <!-- jQuery -->
-<script src="/js/jquery.min.js"></script>
+
+       <script src="/podcasts/js/jquery.min.js"></script>
+    
+
 
 <!-- skel -->
-<script src="/js/skel.min.js"></script>
+
+    <script src="/podcasts/js/skel.min.js"></script>
+    
+
 
 <!-- Custom Code -->
-<script src="/js/util.js"></script>
+
+
+   <script src="/podcasts/js/util.js"></script>
+    
+
+
+
 
 <!--[if lte IE 8]>
-<script src="/js/ie/respond.min.js"></script>
+
+
+   <script src="/podcasts/js/ie/respond.min.js"></script>
+    
+
+
+
 <![endif]-->
 
 <!-- Custom Code -->
-<script src="/js/main.js"></script>
+
+
+   <script src="/podcasts/js/main.js"></script>
+    
+
+
+
 
 <!-- Gallery -->
 <script src="//cdn.rawgit.com/noelboss/featherlight/1.3.5/release/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
@@ -216,7 +222,7 @@
 <!-- Disqus Comments -->
 
 <script type="text/javascript">
-    var disqus_shortname = 'klugjo';
+    var disqus_shortname = 'https-akaiserg-github-io-podcasts';
 
     (function(){
         var dsq = document.createElement('script');
